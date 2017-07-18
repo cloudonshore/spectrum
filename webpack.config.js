@@ -76,6 +76,7 @@ const baseConfig = {
   resolve: {
     extensions: ['.js', '.jsx'],
     modules: [
+      'node_modules', // TODO remove this after completing local kyc link
       path.join(__dirname, 'node_modules'),
     ],
     alias: {
